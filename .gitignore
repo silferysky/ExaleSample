@@ -1,0 +1,59 @@
+# Don't track these folders
+.vs/
+x64/
+RogueEngine/.vs/*
+
+# Compiled source #
+###################
+*.aps
+*.exe
+*.idb
+*.ipch
+*.lastbuildstate
+*.log
+*.tlog
+*.manifest
+*.obj
+*.pch
+*.pdb
+*.res
+*.sdf
+*.suo
+*.user
+*.com
+*.class
+*.o
+*.so
+*.ilk
+*.iobj
+*.ipdb
+*.ilk
+*.iobj
+*.ipdb
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+#include everything within#
+!/Dep/**/*
+!/RogueEditor/Dep/**/*
+!/Debug/*.dll
+!/Release/*.dll
+!x64/Debug/*.dll
+!x64/Release/*.dll
+
+#include dll files#
+!.dll
+
+#ignore specifically these files#
+RogueEngine/log/ClientFileLog.txt
+RogueEngine/log/CoreFileLog.txt
+RogueEngine/Resources/TestJsonFileCreator.json

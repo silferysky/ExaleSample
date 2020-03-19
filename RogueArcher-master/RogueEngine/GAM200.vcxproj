@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\ActivateOnDeathEla.h" />
+    <ClInclude Include="Source\ActivateOnDeathExa.h" />
+    <ClInclude Include="Source\ActivateOnEla.h" />
+    <ClInclude Include="Source\ActivateOnExa.h" />
+    <ClInclude Include="Source\AIType.h" />
+    <ClInclude Include="Source\AnimateOnEla.h" />
+    <ClInclude Include="Source\AnimateOnExa.h" />
+    <ClInclude Include="Source\AnimationComponent.h" />
+    <ClInclude Include="Source\AnimationSystem.h" />
+    <ClInclude Include="Source\AudioEmitterComponent.h" />
+    <ClInclude Include="Source\AudioManager.h" />
+    <ClInclude Include="Source\AudioSystem.h" />
+    <ClInclude Include="Source\BackgroundComponent.h" />
+    <ClInclude Include="Source\BaseCollider.h" />
+    <ClInclude Include="Source\BaseComponent.h" />
+    <ClInclude Include="Source\BaseSystem.h" />
+    <ClInclude Include="Source\BoxCollider2DComponent.h" />
+    <ClInclude Include="Source\CameraComponent.h" />
+    <ClInclude Include="source\CameraManager.h" />
+    <ClInclude Include="Source\CameraShake.h" />
+    <ClInclude Include="Source\CameraSystem.h" />
+    <ClInclude Include="Source\BoundingCircle.h" />
+    <ClInclude Include="Source\BoxCollisionSystem.h" />
+    <ClInclude Include="Source\Checkpoint.h" />
+    <ClInclude Include="Source\ChildComponent.h" />
+    <ClInclude Include="Source\CircleCollisionSystem.h" />
+    <ClInclude Include="Source\ColliderComponent.h" />
+    <ClInclude Include="Source\CoralBubbleTransporter.h" />
+    <ClInclude Include="Source\CoralClam.h" />
+    <ClInclude Include="Source\CoralElementBubble.h" />
+    <ClInclude Include="Source\CrystalElementBeetle.h" />
+    <ClInclude Include="Source\CrystalMole.h" />
+    <ClInclude Include="Source\EmojiAndZoomScript.h" />
+    <ClInclude Include="Source\EmojiScript.h" />
+    <ClInclude Include="Source\ForegroundComponent.h" />
+    <ClInclude Include="Source\GameLevels.h" />
+    <ClInclude Include="Source\GamePlayEnding.h" />
+    <ClInclude Include="Source\HoverOverButton.h" />
+    <ClInclude Include="Source\IntegerPairHasher.h" />
+    <ClInclude Include="Source\ComponentIndex.h" />
+    <ClInclude Include="Source\DeathBox.h" />
+    <ClInclude Include="Source\DisappearOnCollide.h" />
+    <ClInclude Include="Source\EditorTileSet.h" />
+    <ClInclude Include="Source\FadeComponent.h" />
+    <ClInclude Include="Source\FadeObject.h" />
+    <ClInclude Include="Source\FadeSystem.h" />
+    <ClInclude Include="Source\LightComponent.h" />
+    <ClInclude Include="Source\LightingSystem.h" />
+    <ClInclude Include="Source\LightsFlicker.h" />
+    <ClInclude Include="Source\ProgressBar.h" />
+    <ClInclude Include="Source\SaveComponent.h" />
+    <ClInclude Include="Source\SoulCollectible.h" />
+    <ClInclude Include="Source\LayerManager.h" />
+    <ClInclude Include="Source\CollisionSystem.h" />
+    <ClInclude Include="Source\CursorComponent.h" />
+    <ClInclude Include="Source\EditorEvent.h" />
+    <ClInclude Include="Source\FMODHelper.h" />
+    <ClInclude Include="Source\MaskingComponent.h" />
+    <ClInclude Include="Source\MaskingSystem.h" />
+    <ClInclude Include="Source\ICommandable.h" />
+    <ClInclude Include="Source\ImCurveEdit.h" />
+    <ClInclude Include="Source\ImGradient.h" />
+    <ClInclude Include="Source\ImGuizmo.h" />
+    <ClInclude Include="Source\ImSequencer.h" />
+    <ClInclude Include="Source\ParentChildSystem.h" />
+    <ClInclude Include="Source\ParentEvent.h" />
+    <ClInclude Include="Source\ParticleComponent.h" />
+    <ClInclude Include="Source\ParticleEmitterSystem.h" />
+    <ClInclude Include="Source\PickingManager.h" />
+    <ClInclude Include="Source\CursorSystem.h" />
+    <ClInclude Include="Source\DebugDrawSystem.h" />
+    <ClInclude Include="Source\Editor.h" />
+    <ClInclude Include="Source\EditorComponent.h" />
+    <ClInclude Include="Source\EditorConsole.h" />
+    <ClInclude Include="Source\EditorEdit.h" />
+    <ClInclude Include="Source\EditorFile.h" />
+    <ClInclude Include="Source\EditorGameObject.h" />
+    <ClInclude Include="Source\EditorHierarchy.h" />
+    <ClInclude Include="Source\EditorHierarchyInfo.h" />
+    <ClInclude Include="Source\EditorInspector.h" />
+    <ClInclude Include="Source\EditorProfiler.h" />
+    <ClInclude Include="Source\EditorProject.h" />
+    <ClInclude Include="Source\EditorSettings.h" />
+    <ClInclude Include="Source\EditorViewport.h" />
+    <ClInclude Include="Source\FinderAI.h" />
+    <ClInclude Include="Source\FontSystem.h" />
+    <ClInclude Include="Source\ForceManager.h" />
+    <ClInclude Include="Source\glew.h" />
+    <ClInclude Include="Source\glfw3.h" />
+    <ClInclude Include="Source\glfw3native.h" />
+    <ClInclude Include="Source\GLHelper.hpp" />
+    <ClInclude Include="Source\GraphicsEvent.h" />
+    <ClInclude Include="Source\IEditable.h" />
+    <ClInclude Include="Source\ILogic.h" />
+    <ClInclude Include="Source\imconfig.h" />
+    <ClInclude Include="Source\EditorManager.h" />
+    <ClInclude Include="Source\imgui.h" />
+    <ClInclude Include="Source\imgui_impl_glfw.h" />
+    <ClInclude Include="Source\imgui_impl_opengl3.h" />
+    <ClInclude Include="Source\imgui_impl_win32.h" />
+    <ClInclude Include="Source\imgui_internal.h" />
+    <ClInclude Include="Source\imgui_stl.h" />
+    <ClInclude Include="Source\imstb_rectpack.h" />
+    <ClInclude Include="Source\imstb_textedit.h" />
+    <ClInclude Include="Source\imstb_truetype.h" />
+    <ClInclude Include="Source\ISerializable.h" />
+    <ClInclude Include="Source\LogicComponent.h" />
+    <ClInclude Include="Source\LogicSystem.h" />
+    <ClInclude Include="Source\Manifold.h" />
+    <ClInclude Include="Source\MenuControllerSystem.h" />
+    <ClInclude Include="Source\ParticleEmitterComponent.h" />
+    <ClInclude Include="Source\ParticleSystem.h" />
+    <ClInclude Include="Source\PatrolAI.h" />
+    <ClInclude Include="Source\PhysicsSystem.h" />
+    <ClInclude Include="Source\AABB.h" />
+    <ClInclude Include="Source\Circle.h" />
+    <ClInclude Include="Source\CircleCollider2DComponent.h" />
+    <ClInclude Include="Source\CollisionManager.h" />
+    <ClInclude Include="Source\MaterialComponent.h" />
+    <ClInclude Include="Source\OBB.h" />
+    <ClInclude Include="Source\PhysicsDataStructures.hpp" />
+    <ClInclude Include="Source\PickingSystem.h" />
+    <ClInclude Include="Source\PlatformAI.h" />
+    <ClInclude Include="Source\PlayerControllerComponent.h" />
+    <ClInclude Include="Source\PlayerControllerSystem.h" />
+    <ClInclude Include="Source\PlayerStatusManager.h" />
+    <ClInclude Include="Source\Polygon.h" />
+    <ClInclude Include="Source\Precompiled.h" />
+    <ClInclude Include="Source\RigidbodyComponent.h" />
+    <ClInclude Include="Source\RotatableComponent.h" />
+    <ClInclude Include="Source\SceneManager.h" />
+    <ClInclude Include="Source\ScriptComponent.h" />
+    <ClInclude Include="Source\Shader.h" />
+    <ClInclude Include="Source\ShaderManager.h" />
+    <ClInclude Include="Source\SoulComponent.h" />
+    <ClInclude Include="Source\SoulSystem.h" />
+    <ClInclude Include="Source\Sound.h" />
+    <ClInclude Include="Source\SpecialEntity.h" />
+    <ClInclude Include="Source\StatsComponent.h" />
+    <ClInclude Include="Source\TeleCharge1.h" />
+    <ClInclude Include="Source\TeleCharge2.h" />
+    <ClInclude Include="Source\TeleCharge3.h" />
+    <ClInclude Include="Source\TeleAnimation.h" />
+    <ClInclude Include="Source\TextComponent.h" />
+    <ClInclude Include="Source\TextureManager.h" />
+    <ClInclude Include="Source\TileMapComponent.h" />
+    <ClInclude Include="Source\TileMapSystem.h" />
+    <ClInclude Include="Source\TransformComponent.h" />
+    <ClInclude Include="Source\AppEvent.h" />
+    <ClInclude Include="Source\MemoryManager.h" />
+    <ClInclude Include="Source\REEngine.h" />
+    <ClInclude Include="Source\SystemList.h" />
+    <ClInclude Include="Source\BasicIO.h" />
+    <ClInclude Include="Source\ComponentArray.h" />
+    <ClInclude Include="Source\ComponentList.h" />
+    <ClInclude Include="Source\ComponentManager.h" />
+    <ClInclude Include="Source\Config.h" />
+    <ClInclude Include="Source\Coordinator.h" />
+    <ClInclude Include="Source\EntityManager.h" />
+    <ClInclude Include="Source\Event.h" />
+    <ClInclude Include="Source\EventDispatcher.h" />
+    <ClInclude Include="Source\FileIO.h" />
+    <ClInclude Include="Source\EventListener.h" />
+    <ClInclude Include="Source\GameEvent.h" />
+    <ClInclude Include="Source\GraphicsSystem.h" />
+    <ClInclude Include="Source\InputData.h" />
+    <ClInclude Include="Source\InputManager.h" />
+    <ClInclude Include="Source\KeyEvent.h" />
+    <ClInclude Include="Source\Logger.h" />
+    <ClInclude Include="Source\Main.h" />
+    <ClInclude Include="Source\Matrix33.h" />
+    <ClInclude Include="Source\MemoryType.h" />
+    <ClInclude Include="Source\ObjectFactory.h" />
+    <ClInclude Include="Source\REMath.h" />
+    <ClInclude Include="Source\Resource.h" />
+    <ClInclude Include="Source\SpriteComponent.h" />
+    <ClInclude Include="Source\SystemManager.h" />
+    <ClInclude Include="Source\Timer.h" />
+    <ClInclude Include="Source\TransitionObject.h" />
+    <ClInclude Include="Source\TriggerAI.h" />
+    <ClInclude Include="Source\AppearOnCollide.h" />
+    <ClInclude Include="Source\TriggerZoom.h" />
+    <ClInclude Include="Source\Types.h" />
+    <ClInclude Include="Source\UIComponent.h" />
+    <ClInclude Include="Source\UISystem.h" />
+    <ClInclude Include="Source\Vector2D.h" />
+    <ClInclude Include="Source\VegetationBreakable.h" />
+    <ClInclude Include="Source\VegetationPillbug.h" />
+    <ClInclude Include="Source\VSync.h" />
+    <ClInclude Include="Source\WindowHelper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\ActivateOnDeathEla.cpp" />
+    <ClCompile Include="Source\ActivateOnDeathExa.cpp" />
+    <ClCompile Include="Source\ActivateOnEla.cpp" />
+    <ClCompile Include="Source\ActivateOnExa.cpp" />
+    <ClCompile Include="Source\AnimateOnExa.cpp" />
+    <ClCompile Include="Source\AnimationComponent.cpp" />
+    <ClCompile Include="Source\AnimationSystem.cpp" />
+    <ClCompile Include="Source\AudioEmitterComponent.cpp" />
+    <ClCompile Include="Source\AudioSystem.cpp" />
+    <ClCompile Include="Source\BoxCollider2DComponent.cpp" />
+    <ClCompile Include="Source\CameraComponent.cpp" />
+    <ClCompile Include="Source\CameraShake.cpp" />
+    <ClCompile Include="Source\CameraSystem.cpp" />
+    <ClCompile Include="Source\BoundingCircle.cpp" />
+    <ClCompile Include="Source\BoxCollisionSystem.cpp" />
+    <ClCompile Include="Source\Checkpoint.cpp" />
+    <ClCompile Include="Source\ChildComponent.cpp" />
+    <ClCompile Include="Source\CircleCollisionSystem.cpp" />
+    <ClCompile Include="Source\ColliderComponent.cpp" />
+    <ClCompile Include="Source\CoralBubbleTransporter.cpp" />
+    <ClCompile Include="Source\CoralElementBubble.cpp" />
+    <ClCompile Include="Source\CrystalElementBeetle.cpp" />
+    <ClCompile Include="Source\CrystalMole.cpp" />
+    <ClCompile Include="Source\EmojiAndZoomScript.cpp" />
+    <ClCompile Include="Source\EmojiScript.cpp" />
+    <ClCompile Include="Source\ForegroundComponent.cpp" />
+    <ClCompile Include="Source\GamePlayEnding.cpp" />
+    <ClCompile Include="Source\HoverOverButton.cpp" />
+    <ClCompile Include="Source\IntegerPairHasher.cpp" />
+    <ClCompile Include="Source\ComponentIndex.cpp" />
+    <ClCompile Include="Source\ComponentManager.cpp" />
+    <ClCompile Include="Source\DeathBox.cpp" />
+    <ClCompile Include="Source\DisappearOnCollide.cpp" />
+    <ClCompile Include="Source\EditorTileSet.cpp" />
+    <ClCompile Include="Source\FadeObject.cpp" />
+    <ClCompile Include="Source\FadeSystem.cpp" />
+    <ClCompile Include="Source\LayerManager.cpp" />
+    <ClCompile Include="Source\CollisionSystem.cpp" />
+    <ClCompile Include="Source\CursorComponent.cpp" />
+    <ClCompile Include="Source\CursorSystem.cpp" />
+    <ClCompile Include="Source\DebugDrawSystem.cpp" />
+    <ClCompile Include="Source\Editor.cpp" />
+    <ClCompile Include="Source\EditorComponent.cpp" />
+    <ClCompile Include="Source\EditorConsole.cpp" />
+    <ClCompile Include="Source\EditorEdit.cpp" />
+    <ClCompile Include="Source\EditorFile.cpp" />
+    <ClCompile Include="Source\EditorGameObject.cpp" />
+    <ClCompile Include="Source\EditorHierarchy.cpp" />
+    <ClCompile Include="Source\EditorInspector.cpp" />
+    <ClCompile Include="Source\EditorProfiler.cpp" />
+    <ClCompile Include="Source\EditorProject.cpp" />
+    <ClCompile Include="Source\EditorSettings.cpp" />
+    <ClCompile Include="Source\EditorViewport.cpp" />
+    <ClCompile Include="Source\Event.cpp" />
+    <ClCompile Include="Source\EventDispatcher.cpp" />
+    <ClCompile Include="Source\EditorManager.cpp" />
+    <ClCompile Include="Source\FinderAI.cpp" />
+    <ClCompile Include="Source\ForceManager.cpp" />
+    <ClCompile Include="Source\ImCurveEdit.cpp" />
+    <ClCompile Include="Source\ImGradient.cpp" />
+    <ClCompile Include="Source\imgui.cpp" />
+    <ClCompile Include="Source\ImGuizmo.cpp" />
+    <ClCompile Include="Source\imgui_demo.cpp" />
+    <ClCompile Include="Source\imgui_draw.cpp" />
+    <ClCompile Include="Source\imgui_impl_glfw.cpp" />
+    <ClCompile Include="Source\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="Source\imgui_impl_win32.cpp" />
+    <ClCompile Include="Source\imgui_stl.cpp" />
+    <ClCompile Include="Source\imgui_widgets.cpp" />
+    <ClCompile Include="Source\ImSequencer.cpp" />
+    <ClCompile Include="Source\LightComponent.cpp" />
+    <ClCompile Include="Source\LightingSystem.cpp" />
+    <ClCompile Include="Source\LightsFlicker.cpp" />
+    <ClCompile Include="Source\LogicComponent.cpp" />
+    <ClCompile Include="Source\LogicSystem.cpp" />
+    <ClCompile Include="Source\Manifold.cpp" />
+    <ClCompile Include="Source\MaskingComponent.cpp" />
+    <ClCompile Include="Source\MaskingSystem.cpp" />
+    <ClCompile Include="Source\MenuControllerSystem.cpp" />
+    <ClCompile Include="Source\ParentChildSystem.cpp" />
+    <ClCompile Include="Source\ParticleComponent.cpp" />
+    <ClCompile Include="Source\ParticleEmitterComponent.cpp" />
+    <ClCompile Include="Source\ParticleEmitterSystem.cpp" />
+    <ClCompile Include="Source\ParticleSystem.cpp" />
+    <ClCompile Include="Source\PatrolAI.cpp" />
+    <ClCompile Include="Source\PickingSystem.cpp" />
+    <ClCompile Include="Source\PlatformAI.cpp" />
+    <ClCompile Include="Source\PlayerStatusManager.cpp" />
+    <ClCompile Include="source\Precompiled.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\PhysicsSystem.cpp" />
+    <ClCompile Include="Source\AABB.cpp" />
+    <ClCompile Include="Source\Circle.cpp" />
+    <ClCompile Include="Source\CircleCollider2DComponent.cpp" />
+    <ClCompile Include="Source\CollisionManager.cpp" />
+    <ClCompile Include="Source\MaterialComponent.cpp" />
+    <ClCompile Include="Source\OBB.cpp" />
+    <ClCompile Include="Source\PlayerControllerComponent.cpp" />
+    <ClCompile Include="Source\PlayerControllerSystem.cpp" />
+    <ClCompile Include="Source\Polygon.cpp" />
+    <ClCompile Include="Source\ProgressBar.cpp" />
+    <ClCompile Include="Source\RigidbodyComponent.cpp" />
+    <ClCompile Include="Source\RotatableComponent.cpp" />
+    <ClCompile Include="Source\SaveComponent.cpp" />
+    <ClCompile Include="Source\SceneManager.cpp" />
+    <ClCompile Include="Source\ScriptComponent.cpp" />
+    <ClCompile Include="Source\CoralClam.cpp" />
+    <ClCompile Include="Source\Shader.cpp" />
+    <ClCompile Include="Source\FontSystem.cpp" />
+    <ClCompile Include="Source\SoulComponent.cpp" />
+    <ClCompile Include="Source\SoulSystem.cpp" />
+    <ClCompile Include="Source\Sound.cpp" />
+    <ClCompile Include="Source\BackgroundComponent.cpp" />
+    <ClCompile Include="Source\PickingManager.cpp" />
+    <ClCompile Include="Source\FadeComponent.cpp" />
+    <ClCompile Include="Source\SoulCollectible.cpp" />
+    <ClCompile Include="Source\AnimateOnEla.cpp" />
+    <ClCompile Include="Source\StatsComponent.cpp" />
+    <ClCompile Include="Source\SystemManager.cpp" />
+    <ClCompile Include="Source\TeleCharge1.cpp" />
+    <ClCompile Include="Source\TeleCharge2.cpp" />
+    <ClCompile Include="Source\TeleCharge3.cpp" />
+    <ClCompile Include="Source\TeleAnimation.cpp" />
+    <ClCompile Include="Source\TextComponent.cpp" />
+    <ClCompile Include="Source\TextureManager.cpp" />
+    <ClCompile Include="Source\TileMapComponent.cpp" />
+    <ClCompile Include="Source\TileMapSystem.cpp" />
+    <ClCompile Include="Source\TransformComponent.cpp" />
+    <ClCompile Include="Source\Config.cpp" />
+    <ClCompile Include="Source\BasicIO.cpp" />
+    <ClCompile Include="Source\FileIO.cpp" />
+    <ClCompile Include="Source\GraphicsSystem.cpp" />
+    <ClCompile Include="Source\InputManager.cpp" />
+    <ClCompile Include="Source\Logger.cpp" />
+    <ClCompile Include="Source\Main.cpp" />
+    <ClCompile Include="Source\Matrix33.cpp" />
+    <ClCompile Include="Source\MemoryManager.cpp" />
+    <ClCompile Include="Source\ObjectFactory.cpp" />
+    <ClCompile Include="Source\REEngine.cpp" />
+    <ClCompile Include="Source\REMath.cpp" />
+    <ClCompile Include="Source\SpriteComponent.cpp" />
+    <ClCompile Include="Source\Timer.cpp" />
+    <ClCompile Include="Source\TransitionObject.cpp" />
+    <ClCompile Include="Source\TriggerAI.cpp" />
+    <ClCompile Include="Source\AppearOnCollide.cpp" />
+    <ClCompile Include="Source\TriggerZoom.cpp" />
+    <ClCompile Include="Source\UIComponent.cpp" />
+    <ClCompile Include="Source\UISystem.cpp" />
+    <ClCompile Include="Source\Vector2D.cpp" />
+    <ClCompile Include="Source\VegetationBreakable.cpp" />
+    <ClCompile Include="Source\VegetationPillbug.cpp" />
+    <ClCompile Include="Source\VSync.cpp" />
+    <ClCompile Include="Source\WindowHelper.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{63B4A48E-83B8-4090-AC7E-1263A5B407D8}</ProjectGuid>
+    <RootNamespace>GAM200</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <ProjectName>GAM200</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dep\STB\include;$(SolutionDir)Dep\glm;$(SolutionDir)Dep\FMOD\inc;$(SolutionDir)Dep\spdlog-1.x\include;$(SolutionDir)Dep\FreeType\include;$(SolutionDir)Dep\SOIL\include;$(SolutionDir)Dep\GLFW\include;$(SolutionDir)Dep\glew-2.1.0\include;$(SolutionDir)Dep\rapidjson-master\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/std:c++17 %(AdditionalOptions)</AdditionalOptions>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)Dep\FreeType\win64;$(SolutionDir)Dep\FMOD\lib\x64;$(SolutionDir)Dep\SOIL\x64;$(SolutionDir)Dep\GLFW\lib-vc2019;$(SolutionDir)Dep\glew-2.1.0\lib\Release\x64</AdditionalLibraryDirectories>
+      <AdditionalDependencies>freetype.lib;fmod_vc.lib;glfw3.lib;glfw3dll.lib;opengl32.lib;SOIL.lib;glew32.lib;glew32s.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <LinkTimeCodeGeneration>
+      </LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dep\STB\include;$(SolutionDir)Dep\glm;$(SolutionDir)Dep\FMOD\inc;$(SolutionDir)Dep\spdlog-1.x\include;$(SolutionDir)Dep\FreeType\include;$(SolutionDir)Dep\SOIL\include;$(SolutionDir)Dep\GLFW\include;$(SolutionDir)Dep\glew-2.1.0\include;$(SolutionDir)Dep\rapidjson-master\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).Precompiled.h</PrecompiledHeaderOutputFile>
+      <PreprocessToFile>false</PreprocessToFile>
+      <AdditionalOptions>/std:c++17 %(AdditionalOptions)</AdditionalOptions>
+      <PreprocessorDefinitions>_NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)Dep\FreeType\win64;$(SolutionDir)Dep\FMOD\lib\x64;$(SolutionDir)Dep\SOIL\x64;$(SolutionDir)Dep\GLFW\lib-vc2019;$(SolutionDir)Dep\glew-2.1.0\lib\Release\x64</AdditionalLibraryDirectories>
+      <AdditionalDependencies>freetype.lib;fmod_vc.lib;glfw3.lib;glfw3dll.lib;opengl32.lib;SOIL.lib;glew32.lib;glew32s.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Profile>true</Profile>
+      <LinkTimeCodeGeneration>UseFastLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

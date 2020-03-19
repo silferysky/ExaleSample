@@ -1,0 +1,1224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="RogueEngine">
+      <UniqueIdentifier>{f2913a8b-aa33-48bd-b5ba-6c6af812770d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems">
+      <UniqueIdentifier>{720125b1-fd03-4ad0-be57-66bebbe94904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Data">
+      <UniqueIdentifier>{a050a5c0-1c86-4d17-8448-e9c5d24c48f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\Graphics">
+      <UniqueIdentifier>{d11b3ae9-5aed-4e68-8791-7e74d89579b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\Physics">
+      <UniqueIdentifier>{b287f5c9-4fd6-4555-a072-9e44eaea785d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\Events">
+      <UniqueIdentifier>{8ed8a40a-ae7c-43fa-aac3-45f06a6593ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\Events\Events">
+      <UniqueIdentifier>{874017b0-c223-4a1e-9f81-5e68b60e39c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Math">
+      <UniqueIdentifier>{22b537b5-886e-4043-b876-1c95ad7a8bc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Core">
+      <UniqueIdentifier>{4fe8da6f-c39e-45a1-9802-b4b7e3bd135e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Core\ECS">
+      <UniqueIdentifier>{88038d41-a256-48eb-ab06-a72faa839284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\Physics\Components">
+      <UniqueIdentifier>{846770d4-715c-44f0-88bf-591217db1294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\AI">
+      <UniqueIdentifier>{e68acb32-5338-4384-a5ff-e96022bc6953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\AI\AI Types">
+      <UniqueIdentifier>{d574c589-f4a4-4c0f-a12d-0c7a4994e96d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEditor">
+      <UniqueIdentifier>{5a236eec-1c6e-4ffa-9a10-717a12c37429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEditor\EditorFiles">
+      <UniqueIdentifier>{20c1c47b-5b49-47b1-abb4-12f8f5fd1d9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEditor\EditorLibrary">
+      <UniqueIdentifier>{35c0161a-d947-4567-9c59-669be140c0e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\AI\Components">
+      <UniqueIdentifier>{c47994d7-a5b1-4833-b6e9-163adb7acfd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\AI\Interface">
+      <UniqueIdentifier>{847c7d63-e621-4015-ba7e-024dcbef5d5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\Collision">
+      <UniqueIdentifier>{e4319b4b-0961-4d86-8ff7-4c14b6b262b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\Camera">
+      <UniqueIdentifier>{508febc0-b3e9-4c4b-9cc8-7e422407a8bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Debug">
+      <UniqueIdentifier>{c8c7defc-4043-4b41-8c06-6572d6de7638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\I/O">
+      <UniqueIdentifier>{04f37cb7-cc36-4083-9b39-54efe633ae0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Memory">
+      <UniqueIdentifier>{c7c96828-3cac-4aeb-bc20-6a26e3a1a849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Window">
+      <UniqueIdentifier>{9362b601-3681-4d18-a391-149befb2a6ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Entry Point">
+      <UniqueIdentifier>{9eeb187a-fe64-4147-bf8b-6b387e91f8d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\Input">
+      <UniqueIdentifier>{3a918ea4-3468-4a85-9107-f225a7c6b8cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\Graphics\Animation">
+      <UniqueIdentifier>{b833da32-ffc6-42fb-95de-532a655454ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\Collision\Colliders">
+      <UniqueIdentifier>{67d71b4f-ed16-4b5d-ad47-1da141663451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\Audio">
+      <UniqueIdentifier>{34201bcf-7e12-429e-8512-5d15958226b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\Collision\Shapes">
+      <UniqueIdentifier>{bd0e46e0-5af7-4458-b9da-3f6a931851a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\Collision\Collision Systems">
+      <UniqueIdentifier>{236931ee-5a69-46cd-9f7d-98a8fc8a38ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\Collision\Components">
+      <UniqueIdentifier>{9fd1136a-abdd-4f1e-ba8c-4d3e5264e59b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\UI">
+      <UniqueIdentifier>{0b09499a-b5ad-41dc-946a-16db0a0a9183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\Particle System">
+      <UniqueIdentifier>{368b5bf4-6c90-4902-9e57-4634c120da48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\Player Controller">
+      <UniqueIdentifier>{0d94350a-4a50-4e83-8f56-fb5c30539fb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\Menu Controller">
+      <UniqueIdentifier>{bd10c2f1-4f88-4468-8fc1-005733ac1d17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\Picking">
+      <UniqueIdentifier>{9231369d-d291-484d-86b5-06cc6c94dddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\Picking\Cursor">
+      <UniqueIdentifier>{ce9604b8-0908-4818-aa4a-cae28126becc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\ParentChild">
+      <UniqueIdentifier>{a116e54c-8533-45b3-b90b-c50d480be50a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\Collision\Data">
+      <UniqueIdentifier>{225070de-efff-488a-ab77-7bde09866f84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\Graphics\Masking">
+      <UniqueIdentifier>{5b852215-22bd-4938-adf6-ddb7e7efb081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\Graphics\Fading">
+      <UniqueIdentifier>{766b1b40-7c35-4801-bfce-958539f5cead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\AI\Script Types">
+      <UniqueIdentifier>{9962feaa-96d2-48da-8db6-9f62213c0786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\AI\Script Types\UI">
+      <UniqueIdentifier>{66e7949b-47f6-4812-9066-5a83b59e0d43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\AI\Script Types\UI\TeleCharge">
+      <UniqueIdentifier>{9aa52bf9-5118-4c68-8892-e1179bb330fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\Graphics\Lighting">
+      <UniqueIdentifier>{22fd065d-c5a3-40a5-a580-585a775c4fd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\Graphics\Debug Draw">
+      <UniqueIdentifier>{72496074-30f5-465a-abd5-300a936ce5a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\Camera\Background">
+      <UniqueIdentifier>{35b776bc-69be-4171-bdd6-d15d73e24b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\Graphics\Foreground">
+      <UniqueIdentifier>{08b5b499-0003-4f77-8409-07cc78391bd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEditor\EditorFiles\Deprecated">
+      <UniqueIdentifier>{51a8207e-6fe0-45e0-aa96-199df01e77ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEditor\EditorFiles\Core">
+      <UniqueIdentifier>{f1eb8d01-b5c7-4057-b77a-3d321e564994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEditor\EditorFiles\Options">
+      <UniqueIdentifier>{744c56b1-8f86-409b-80a3-ce757540ffac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEditor\EditorFiles\Debug">
+      <UniqueIdentifier>{9ebaed17-9f7f-461c-b282-0775edfd0ae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEditor\EditorFiles\Main Windows">
+      <UniqueIdentifier>{22e6d313-a754-446d-bcf2-e584e0be6dd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\AI\Script Types\Trigger">
+      <UniqueIdentifier>{842bfbfe-8895-4878-a60f-3182b3139b47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEditor\EditorFiles\Main Windows\Tile Set">
+      <UniqueIdentifier>{7afe4e21-e2ce-4ee0-88fb-4a1164547d2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\AI\Script Types\Game">
+      <UniqueIdentifier>{34f57ff7-c234-4e04-acdc-e548db4bc778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\AI\Script Types\Game\Amethyst Seas">
+      <UniqueIdentifier>{b65d5a9f-ccb0-4053-8223-ca66ee67c32f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\AI\Script Types\Game\Exa/Ela">
+      <UniqueIdentifier>{542e6089-b374-4b17-8008-d8beaaa35b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\AI\Script Types\Game\General Gameplay">
+      <UniqueIdentifier>{28eb60b4-cd02-4e46-80cb-050024dfff29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\AI\Script Types\Game\Endings">
+      <UniqueIdentifier>{9b669ed2-3682-413d-8875-1368628a31ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\AI\Script Types\Game\Crystal Caverns">
+      <UniqueIdentifier>{76301b52-54ff-4388-911d-cc7e299c92f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RogueEngine\Systems\AI\Script Types\Game\Verdant Forest">
+      <UniqueIdentifier>{99a2195e-e924-443f-ac9f-327b601ad52c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Event.h">
+      <Filter>RogueEngine\Systems\Events\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AppEvent.h">
+      <Filter>RogueEngine\Systems\Events\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\KeyEvent.h">
+      <Filter>RogueEngine\Systems\Events\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EventDispatcher.h">
+      <Filter>RogueEngine\Systems\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\InputData.h">
+      <Filter>RogueEngine\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\InputManager.h">
+      <Filter>RogueEngine\Systems\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FileIO.h">
+      <Filter>RogueEngine\I/O</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Circle.h">
+      <Filter>RogueEngine\Systems\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Polygon.h">
+      <Filter>RogueEngine\Systems\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Matrix33.h">
+      <Filter>RogueEngine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\REMath.h">
+      <Filter>RogueEngine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EventListener.h">
+      <Filter>RogueEngine\Systems\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameEvent.h">
+      <Filter>RogueEngine\Systems\Events\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MemoryType.h">
+      <Filter>RogueEngine\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GraphicsSystem.h">
+      <Filter>RogueEngine\Systems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpriteComponent.h">
+      <Filter>RogueEngine\Systems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SystemManager.h">
+      <Filter>RogueEngine\Core\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EntityManager.h">
+      <Filter>RogueEngine\Core\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Coordinator.h">
+      <Filter>RogueEngine\Core\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ComponentManager.h">
+      <Filter>RogueEngine\Core\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ComponentArray.h">
+      <Filter>RogueEngine\Core\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PhysicsSystem.h">
+      <Filter>RogueEngine\Systems\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Config.h">
+      <Filter>RogueEngine\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Types.h">
+      <Filter>RogueEngine\Core\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\REEngine.h">
+      <Filter>RogueEngine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ComponentList.h">
+      <Filter>RogueEngine\Core\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BasicIO.h">
+      <Filter>RogueEngine\I/O</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MaterialComponent.h">
+      <Filter>RogueEngine\Systems\Physics\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RigidbodyComponent.h">
+      <Filter>RogueEngine\Systems\Physics\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RotatableComponent.h">
+      <Filter>RogueEngine\Systems\Physics\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TransformComponent.h">
+      <Filter>RogueEngine\Systems\Physics\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MemoryManager.h">
+      <Filter>RogueEngine\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ObjectFactory.h">
+      <Filter>RogueEngine\Core\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\VSync.h">
+      <Filter>RogueEngine\Systems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TextureManager.h">
+      <Filter>RogueEngine\Systems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Shader.h">
+      <Filter>RogueEngine\Systems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ShaderManager.h">
+      <Filter>RogueEngine\Systems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GLHelper.hpp">
+      <Filter>RogueEngine\Systems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ISerializable.h">
+      <Filter>RogueEngine\I/O</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BaseComponent.h">
+      <Filter>RogueEngine\Core\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LogicSystem.h">
+      <Filter>RogueEngine\Systems\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\glew.h">
+      <Filter>RogueEditor\EditorLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\glfw3.h">
+      <Filter>RogueEditor\EditorLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\glfw3native.h">
+      <Filter>RogueEditor\EditorLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\imconfig.h">
+      <Filter>RogueEditor\EditorLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\imgui_impl_glfw.h">
+      <Filter>RogueEditor\EditorLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\imgui_impl_opengl3.h">
+      <Filter>RogueEditor\EditorLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\imgui_stl.h">
+      <Filter>RogueEditor\EditorLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\imstb_rectpack.h">
+      <Filter>RogueEditor\EditorLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\imstb_textedit.h">
+      <Filter>RogueEditor\EditorLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\imstb_truetype.h">
+      <Filter>RogueEditor\EditorLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AIType.h">
+      <Filter>RogueEngine\Systems\AI\AI Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LogicComponent.h">
+      <Filter>RogueEngine\Systems\AI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ILogic.h">
+      <Filter>RogueEngine\Systems\AI\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BaseSystem.h">
+      <Filter>RogueEngine\Core\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SystemList.h">
+      <Filter>RogueEngine\Core\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FontSystem.h">
+      <Filter>RogueEngine\Systems\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DebugDrawSystem.h">
+      <Filter>RogueEngine\Systems\Graphics\Debug Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\imgui.h">
+      <Filter>RogueEditor\EditorLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\imgui_impl_win32.h">
+      <Filter>RogueEditor\EditorLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\imgui_internal.h">
+      <Filter>RogueEditor\EditorLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WindowHelper.h">
+      <Filter>RogueEngine\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StatsComponent.h">
+      <Filter>RogueEngine\Systems\AI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CameraSystem.h">
+      <Filter>RogueEngine\Systems\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Logger.h">
+      <Filter>RogueEngine\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Timer.h">
+      <Filter>RogueEngine\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerControllerSystem.h">
+      <Filter>RogueEngine\Systems\Player Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerControllerComponent.h">
+      <Filter>RogueEngine\Systems\Player Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Main.h">
+      <Filter>RogueEngine\Entry Point</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Vector2D.h">
+      <Filter>RogueEngine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AnimationComponent.h">
+      <Filter>RogueEngine\Systems\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AnimationSystem.h">
+      <Filter>RogueEngine\Systems\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CameraComponent.h">
+      <Filter>RogueEngine\Systems\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AABB.h">
+      <Filter>RogueEngine\Systems\Collision\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BaseCollider.h">
+      <Filter>RogueEngine\Systems\Collision\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OBB.h">
+      <Filter>RogueEngine\Systems\Collision\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CameraShake.h">
+      <Filter>RogueEngine\Systems\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AudioSystem.h">
+      <Filter>RogueEngine\Systems\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sound.h">
+      <Filter>RogueEngine\Systems\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AudioEmitterComponent.h">
+      <Filter>RogueEngine\Systems\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BoxCollisionSystem.h">
+      <Filter>RogueEngine\Systems\Collision\Collision Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CircleCollisionSystem.h">
+      <Filter>RogueEngine\Systems\Collision\Collision Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CollisionSystem.h">
+      <Filter>RogueEngine\Systems\Collision\Collision Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CircleCollider2DComponent.h">
+      <Filter>RogueEngine\Systems\Collision\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BoxCollider2DComponent.h">
+      <Filter>RogueEngine\Systems\Collision\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FinderAI.h">
+      <Filter>RogueEngine\Systems\AI\AI Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ForceManager.h">
+      <Filter>RogueEngine\Systems\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneManager.h">
+      <Filter>RogueEngine\Core\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpecialEntity.h">
+      <Filter>RogueEngine\Systems\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UIComponent.h">
+      <Filter>RogueEngine\Systems\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GraphicsEvent.h">
+      <Filter>RogueEngine\Systems\Events\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AudioManager.h">
+      <Filter>RogueEngine\Systems\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ColliderComponent.h">
+      <Filter>RogueEngine\Systems\Collision\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PatrolAI.h">
+      <Filter>RogueEngine\Systems\AI\AI Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TextComponent.h">
+      <Filter>RogueEngine\Systems\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BackgroundComponent.h">
+      <Filter>RogueEngine\Systems\Camera\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Precompiled.h">
+      <Filter>RogueEngine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MenuControllerSystem.h">
+      <Filter>RogueEngine\Systems\Menu Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ParticleSystem.h">
+      <Filter>RogueEngine\Systems\Particle System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ParticleEmitterComponent.h">
+      <Filter>RogueEngine\Systems\Particle System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TriggerAI.h">
+      <Filter>RogueEngine\Systems\AI\AI Types</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CameraManager.h">
+      <Filter>RogueEngine\Systems\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BoundingCircle.h">
+      <Filter>RogueEngine\Systems\Collision\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CursorSystem.h">
+      <Filter>RogueEngine\Systems\Picking\Cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CursorComponent.h">
+      <Filter>RogueEngine\Systems\Picking\Cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PickingSystem.h">
+      <Filter>RogueEngine\Systems\Picking</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PickingManager.h">
+      <Filter>RogueEngine\Systems\Picking</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ParticleComponent.h">
+      <Filter>RogueEngine\Systems\Particle System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ParticleEmitterSystem.h">
+      <Filter>RogueEngine\Systems\Particle System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImCurveEdit.h">
+      <Filter>RogueEditor\EditorLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImGradient.h">
+      <Filter>RogueEditor\EditorLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImGuizmo.h">
+      <Filter>RogueEditor\EditorLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImSequencer.h">
+      <Filter>RogueEditor\EditorLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UISystem.h">
+      <Filter>RogueEngine\Systems\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FMODHelper.h">
+      <Filter>RogueEngine\Systems\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EditorEvent.h">
+      <Filter>RogueEngine\Systems\Events\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CollisionManager.h">
+      <Filter>RogueEngine\Systems\Collision\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Manifold.h">
+      <Filter>RogueEngine\Systems\Collision\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PhysicsDataStructures.hpp">
+      <Filter>RogueEngine\Systems\Collision\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LayerManager.h">
+      <Filter>RogueEngine\Systems\Collision\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ParentEvent.h">
+      <Filter>RogueEngine\Systems\Events\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ParentChildSystem.h">
+      <Filter>RogueEngine\Systems\ParentChild</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerStatusManager.h">
+      <Filter>RogueEngine\Systems\Player Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ChildComponent.h">
+      <Filter>RogueEngine\Systems\ParentChild</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MaskingSystem.h">
+      <Filter>RogueEngine\Systems\Graphics\Masking</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MaskingComponent.h">
+      <Filter>RogueEngine\Systems\Graphics\Masking</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FadeComponent.h">
+      <Filter>RogueEngine\Systems\Graphics\Fading</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FadeSystem.h">
+      <Filter>RogueEngine\Systems\Graphics\Fading</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ScriptComponent.h">
+      <Filter>RogueEngine\Systems\AI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FadeObject.h">
+      <Filter>RogueEngine\Systems\AI\Script Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlatformAI.h">
+      <Filter>RogueEngine\Systems\AI\AI Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TeleCharge1.h">
+      <Filter>RogueEngine\Systems\AI\Script Types\UI\TeleCharge</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TeleCharge2.h">
+      <Filter>RogueEngine\Systems\AI\Script Types\UI\TeleCharge</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TeleCharge3.h">
+      <Filter>RogueEngine\Systems\AI\Script Types\UI\TeleCharge</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AppearOnCollide.h">
+      <Filter>RogueEngine\Systems\AI\Script Types\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DisappearOnCollide.h">
+      <Filter>RogueEngine\Systems\AI\Script Types\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LightComponent.h">
+      <Filter>RogueEngine\Systems\Graphics\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LightingSystem.h">
+      <Filter>RogueEngine\Systems\Graphics\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ComponentIndex.h">
+      <Filter>RogueEngine\Core\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IntegerPairHasher.h">
+      <Filter>RogueEngine\Systems\Collision\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ForegroundComponent.h">
+      <Filter>RogueEngine\Systems\Graphics\Foreground</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LightsFlicker.h">
+      <Filter>RogueEngine\Systems\AI\Script Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HoverOverButton.h">
+      <Filter>RogueEngine\Systems\AI\Script Types\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ProgressBar.h">
+      <Filter>RogueEngine\Systems\AI\Script Types\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EditorComponent.h">
+      <Filter>RogueEditor\EditorFiles\Deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EditorEdit.h">
+      <Filter>RogueEditor\EditorFiles\Deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EditorFile.h">
+      <Filter>RogueEditor\EditorFiles\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EditorGameObject.h">
+      <Filter>RogueEditor\EditorFiles\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EditorManager.h">
+      <Filter>RogueEditor\EditorFiles\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ICommandable.h">
+      <Filter>RogueEditor\EditorFiles\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IEditable.h">
+      <Filter>RogueEditor\EditorFiles\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Editor.h">
+      <Filter>RogueEditor\EditorFiles\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EditorProfiler.h">
+      <Filter>RogueEditor\EditorFiles\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EditorSettings.h">
+      <Filter>RogueEditor\EditorFiles\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EditorConsole.h">
+      <Filter>RogueEditor\EditorFiles\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EditorHierarchy.h">
+      <Filter>RogueEditor\EditorFiles\Main Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EditorHierarchyInfo.h">
+      <Filter>RogueEditor\EditorFiles\Main Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EditorInspector.h">
+      <Filter>RogueEditor\EditorFiles\Main Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EditorProject.h">
+      <Filter>RogueEditor\EditorFiles\Main Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EditorViewport.h">
+      <Filter>RogueEditor\EditorFiles\Main Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TransitionObject.h">
+      <Filter>RogueEngine\Systems\AI\Script Types\Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TriggerZoom.h">
+      <Filter>RogueEngine\Systems\AI\Script Types\Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EditorTileSet.h">
+      <Filter>RogueEditor\EditorFiles\Main Windows\Tile Set</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TileMapComponent.h">
+      <Filter>RogueEditor\EditorFiles\Main Windows\Tile Set</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TileMapSystem.h">
+      <Filter>RogueEditor\EditorFiles\Main Windows\Tile Set</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EmojiScript.h">
+      <Filter>RogueEngine\Systems\AI\Script Types\Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EmojiAndZoomScript.h">
+      <Filter>RogueEngine\Systems\AI\Script Types\Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ActivateOnDeathEla.h">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\Exa/Ela</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ActivateOnDeathExa.h">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\Exa/Ela</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ActivateOnEla.h">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\Exa/Ela</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ActivateOnExa.h">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\Exa/Ela</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AnimateOnEla.h">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\Exa/Ela</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AnimateOnExa.h">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\Exa/Ela</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TeleAnimation.h">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\Exa/Ela</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Checkpoint.h">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\General Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DeathBox.h">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\General Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SoulCollectible.h">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\General Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GamePlayEnding.h">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\Endings</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SaveComponent.h" />
+    <ClInclude Include="Source\VegetationPillbug.h">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\Verdant Forest</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\VegetationBreakable.h">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\Verdant Forest</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CoralClam.h">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\Amethyst Seas</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CoralBubbleTransporter.h">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\Amethyst Seas</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CrystalElementBeetle.h">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\Crystal Caverns</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CrystalMole.h">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\Crystal Caverns</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CoralElementBubble.h">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\Amethyst Seas</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameLevels.h">
+      <Filter>RogueEngine\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SoulComponent.h">
+      <Filter>RogueEngine\Systems\AI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SoulSystem.h">
+      <Filter>RogueEngine\Systems\AI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\InputManager.cpp">
+      <Filter>RogueEngine\Systems\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FileIO.cpp">
+      <Filter>RogueEngine\I/O</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Circle.cpp">
+      <Filter>RogueEngine\Systems\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Polygon.cpp">
+      <Filter>RogueEngine\Systems\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Matrix33.cpp">
+      <Filter>RogueEngine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\REMath.cpp">
+      <Filter>RogueEngine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GraphicsSystem.cpp">
+      <Filter>RogueEngine\Systems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpriteComponent.cpp">
+      <Filter>RogueEngine\Systems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PhysicsSystem.cpp">
+      <Filter>RogueEngine\Systems\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Config.cpp">
+      <Filter>RogueEngine\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\REEngine.cpp">
+      <Filter>RogueEngine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BasicIO.cpp">
+      <Filter>RogueEngine\I/O</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MaterialComponent.cpp">
+      <Filter>RogueEngine\Systems\Physics\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RigidbodyComponent.cpp">
+      <Filter>RogueEngine\Systems\Physics\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RotatableComponent.cpp">
+      <Filter>RogueEngine\Systems\Physics\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TransformComponent.cpp">
+      <Filter>RogueEngine\Systems\Physics\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MemoryManager.cpp">
+      <Filter>RogueEngine\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ObjectFactory.cpp">
+      <Filter>RogueEngine\Core\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\VSync.cpp">
+      <Filter>RogueEngine\Systems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shader.cpp">
+      <Filter>RogueEngine\Systems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EventDispatcher.cpp">
+      <Filter>RogueEngine\Systems\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LogicSystem.cpp">
+      <Filter>RogueEngine\Systems\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\imgui_impl_glfw.cpp">
+      <Filter>RogueEditor\EditorLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\imgui_impl_opengl3.cpp">
+      <Filter>RogueEditor\EditorLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\imgui_stl.cpp">
+      <Filter>RogueEditor\EditorLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Event.cpp">
+      <Filter>RogueEngine\Systems\Events\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LogicComponent.cpp">
+      <Filter>RogueEngine\Systems\AI\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FontSystem.cpp">
+      <Filter>RogueEngine\Systems\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DebugDrawSystem.cpp">
+      <Filter>RogueEngine\Systems\Graphics\Debug Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\imgui.cpp">
+      <Filter>RogueEditor\EditorLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\imgui_impl_win32.cpp">
+      <Filter>RogueEditor\EditorLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\imgui_demo.cpp">
+      <Filter>RogueEditor\EditorLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\imgui_draw.cpp">
+      <Filter>RogueEditor\EditorLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\imgui_widgets.cpp">
+      <Filter>RogueEditor\EditorLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WindowHelper.cpp">
+      <Filter>RogueEngine\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StatsComponent.cpp">
+      <Filter>RogueEngine\Systems\AI\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CameraSystem.cpp">
+      <Filter>RogueEngine\Systems\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Logger.cpp">
+      <Filter>RogueEngine\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Timer.cpp">
+      <Filter>RogueEngine\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerControllerSystem.cpp">
+      <Filter>RogueEngine\Systems\Player Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerControllerComponent.cpp">
+      <Filter>RogueEngine\Systems\Player Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>RogueEngine\Entry Point</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Vector2D.cpp">
+      <Filter>RogueEngine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TextureManager.cpp">
+      <Filter>RogueEngine\Systems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AnimationComponent.cpp">
+      <Filter>RogueEngine\Systems\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AnimationSystem.cpp">
+      <Filter>RogueEngine\Systems\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CameraComponent.cpp">
+      <Filter>RogueEngine\Systems\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AABB.cpp">
+      <Filter>RogueEngine\Systems\Collision\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OBB.cpp">
+      <Filter>RogueEngine\Systems\Collision\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CameraShake.cpp">
+      <Filter>RogueEngine\Systems\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AudioSystem.cpp">
+      <Filter>RogueEngine\Systems\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sound.cpp">
+      <Filter>RogueEngine\Systems\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AudioEmitterComponent.cpp">
+      <Filter>RogueEngine\Systems\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BoxCollisionSystem.cpp">
+      <Filter>RogueEngine\Systems\Collision\Collision Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CircleCollisionSystem.cpp">
+      <Filter>RogueEngine\Systems\Collision\Collision Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CollisionSystem.cpp">
+      <Filter>RogueEngine\Systems\Collision\Collision Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CircleCollider2DComponent.cpp">
+      <Filter>RogueEngine\Systems\Collision\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BoxCollider2DComponent.cpp">
+      <Filter>RogueEngine\Systems\Collision\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FinderAI.cpp">
+      <Filter>RogueEngine\Systems\AI\AI Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ForceManager.cpp">
+      <Filter>RogueEngine\Systems\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneManager.cpp">
+      <Filter>RogueEngine\Core\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIComponent.cpp">
+      <Filter>RogueEngine\Systems\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ColliderComponent.cpp">
+      <Filter>RogueEngine\Systems\Collision\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PatrolAI.cpp">
+      <Filter>RogueEngine\Systems\AI\AI Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TextComponent.cpp">
+      <Filter>RogueEngine\Systems\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BackgroundComponent.cpp">
+      <Filter>RogueEngine\Systems\Camera\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Precompiled.cpp">
+      <Filter>RogueEngine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MenuControllerSystem.cpp">
+      <Filter>RogueEngine\Systems\Menu Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParticleSystem.cpp">
+      <Filter>RogueEngine\Systems\Particle System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParticleEmitterComponent.cpp">
+      <Filter>RogueEngine\Systems\Particle System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TriggerAI.cpp">
+      <Filter>RogueEngine\Systems\AI\AI Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BoundingCircle.cpp">
+      <Filter>RogueEngine\Systems\Collision\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CursorSystem.cpp">
+      <Filter>RogueEngine\Systems\Picking\Cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CursorComponent.cpp">
+      <Filter>RogueEngine\Systems\Picking\Cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PickingSystem.cpp">
+      <Filter>RogueEngine\Systems\Picking</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PickingManager.cpp">
+      <Filter>RogueEngine\Systems\Picking</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParticleComponent.cpp">
+      <Filter>RogueEngine\Systems\Particle System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParticleEmitterSystem.cpp">
+      <Filter>RogueEngine\Systems\Particle System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ImCurveEdit.cpp">
+      <Filter>RogueEditor\EditorLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ImGradient.cpp">
+      <Filter>RogueEditor\EditorLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ImGuizmo.cpp">
+      <Filter>RogueEditor\EditorLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ImSequencer.cpp">
+      <Filter>RogueEditor\EditorLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UISystem.cpp">
+      <Filter>RogueEngine\Systems\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CollisionManager.cpp">
+      <Filter>RogueEngine\Systems\Collision\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Manifold.cpp">
+      <Filter>RogueEngine\Systems\Collision\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LayerManager.cpp">
+      <Filter>RogueEngine\Systems\Collision\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParentChildSystem.cpp">
+      <Filter>RogueEngine\Systems\ParentChild</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerStatusManager.cpp">
+      <Filter>RogueEngine\Systems\Player Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ChildComponent.cpp">
+      <Filter>RogueEngine\Systems\ParentChild</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MaskingSystem.cpp">
+      <Filter>RogueEngine\Systems\Graphics\Masking</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MaskingComponent.cpp">
+      <Filter>RogueEngine\Systems\Graphics\Masking</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FadeSystem.cpp">
+      <Filter>RogueEngine\Systems\Graphics\Fading</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FadeComponent.cpp">
+      <Filter>RogueEngine\Systems\Graphics\Fading</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ScriptComponent.cpp">
+      <Filter>RogueEngine\Systems\AI\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FadeObject.cpp">
+      <Filter>RogueEngine\Systems\AI\Script Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlatformAI.cpp">
+      <Filter>RogueEngine\Systems\AI\AI Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TeleCharge1.cpp">
+      <Filter>RogueEngine\Systems\AI\Script Types\UI\TeleCharge</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TeleCharge2.cpp">
+      <Filter>RogueEngine\Systems\AI\Script Types\UI\TeleCharge</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TeleCharge3.cpp">
+      <Filter>RogueEngine\Systems\AI\Script Types\UI\TeleCharge</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AppearOnCollide.cpp">
+      <Filter>RogueEngine\Systems\AI\Script Types\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DisappearOnCollide.cpp">
+      <Filter>RogueEngine\Systems\AI\Script Types\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LightComponent.cpp">
+      <Filter>RogueEngine\Systems\Graphics\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LightingSystem.cpp">
+      <Filter>RogueEngine\Systems\Graphics\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SystemManager.cpp">
+      <Filter>RogueEngine\Core\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ComponentManager.cpp">
+      <Filter>RogueEngine\Core\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ComponentIndex.cpp">
+      <Filter>RogueEngine\Core\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IntegerPairHasher.cpp">
+      <Filter>RogueEngine\Systems\Collision\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ForegroundComponent.cpp">
+      <Filter>RogueEngine\Systems\Graphics\Foreground</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LightsFlicker.cpp">
+      <Filter>RogueEngine\Systems\AI\Script Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HoverOverButton.cpp">
+      <Filter>RogueEngine\Systems\AI\Script Types\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ProgressBar.cpp">
+      <Filter>RogueEngine\Systems\AI\Script Types\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EditorComponent.cpp">
+      <Filter>RogueEditor\EditorFiles\Deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EditorEdit.cpp">
+      <Filter>RogueEditor\EditorFiles\Deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EditorFile.cpp">
+      <Filter>RogueEditor\EditorFiles\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EditorGameObject.cpp">
+      <Filter>RogueEditor\EditorFiles\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EditorManager.cpp">
+      <Filter>RogueEditor\EditorFiles\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Editor.cpp">
+      <Filter>RogueEditor\EditorFiles\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EditorProfiler.cpp">
+      <Filter>RogueEditor\EditorFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EditorSettings.cpp">
+      <Filter>RogueEditor\EditorFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EditorConsole.cpp">
+      <Filter>RogueEditor\EditorFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EditorHierarchy.cpp">
+      <Filter>RogueEditor\EditorFiles\Main Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EditorInspector.cpp">
+      <Filter>RogueEditor\EditorFiles\Main Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EditorProject.cpp">
+      <Filter>RogueEditor\EditorFiles\Main Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EditorViewport.cpp">
+      <Filter>RogueEditor\EditorFiles\Main Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TransitionObject.cpp">
+      <Filter>RogueEngine\Systems\AI\Script Types\Trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TriggerZoom.cpp">
+      <Filter>RogueEngine\Systems\AI\Script Types\Trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EditorTileSet.cpp">
+      <Filter>RogueEditor\EditorFiles\Main Windows\Tile Set</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TileMapSystem.cpp">
+      <Filter>RogueEditor\EditorFiles\Main Windows\Tile Set</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TileMapComponent.cpp">
+      <Filter>RogueEditor\EditorFiles\Main Windows\Tile Set</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EmojiScript.cpp">
+      <Filter>RogueEngine\Systems\AI\Script Types\Trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EmojiAndZoomScript.cpp">
+      <Filter>RogueEngine\Systems\AI\Script Types\Trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ActivateOnDeathEla.cpp">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\Exa/Ela</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ActivateOnDeathExa.cpp">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\Exa/Ela</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ActivateOnEla.cpp">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\Exa/Ela</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ActivateOnExa.cpp">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\Exa/Ela</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AnimateOnEla.cpp">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\Exa/Ela</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AnimateOnExa.cpp">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\Exa/Ela</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TeleAnimation.cpp">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\Exa/Ela</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Checkpoint.cpp">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\General Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DeathBox.cpp">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\General Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SoulCollectible.cpp">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\General Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GamePlayEnding.cpp">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\Endings</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SaveComponent.cpp" />
+    <ClCompile Include="Source\VegetationPillbug.cpp">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\Verdant Forest</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\VegetationBreakable.cpp">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\Verdant Forest</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CoralClam.cpp">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\Amethyst Seas</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CoralBubbleTransporter.cpp">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\Amethyst Seas</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CrystalElementBeetle.cpp">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\Crystal Caverns</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CrystalMole.cpp">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\Crystal Caverns</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CoralElementBubble.cpp">
+      <Filter>RogueEngine\Systems\AI\Script Types\Game\Amethyst Seas</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SoulComponent.cpp">
+      <Filter>RogueEngine\Systems\AI\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SoulSystem.cpp">
+      <Filter>RogueEngine\Systems\AI</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
